@@ -1,5 +1,4 @@
 function submitData(userName, userEmail) {
-
     return fetch("http://localhost:3000/users", {
             method: "POST",
             headers: {
@@ -23,5 +22,4 @@ function submitData(userName, userEmail) {
         .catch(function(error) {
             document.body.innerHTML = error.message
         })
-
 }
